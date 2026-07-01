@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --primary: rgba(0, 255, 81, 0.149);
+    --secondary: yellow;
+    --tertiary:rgba(20, 189, 40, 0.452);
+}
+header{
+    background-color: var(--primary);
+h1{
+   font-size: 30px; 
+}
+
+}
+#aboutme{
+    background-color: var(--tertiary);
+    display: flex;
+    padding: 30px;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+.education h2{
+color: blue;
+}
+.education h3{
+    color: rgba(0, 106, 255, 0.811);
+}
+
+#skills{
+    background-color: rgba(95, 160, 127, 0.769);
+    display: block;
+    padding: 20px;
+}
+
+#projects{
+    background-color: rgba(100, 237, 171, 0.34);
+    display: block;
+    padding: 30px;
+}
+
+#contacts{
+    display: block;
+    text-align: center;
+}

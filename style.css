@@ -5,9 +5,44 @@
 
 :root{
     --primary: rgba(0, 255, 81, 0.149);
-    --secondary: yellow;
+    --secondary: rgb(20, 206, 162);
     --tertiary:rgba(20, 189, 40, 0.452);
 }
+
+.navbar{
+    background-color: #111111;
+}
+
+.nav-link{
+    background-color:black
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+ul li {
+  float: right;
+  border-right: 1px;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #111111;
+}
+
+
 header{
     background-color: var(--primary);
 h1{
@@ -21,6 +56,19 @@ h1{
     padding: 30px;
     margin-top: 10px;
     border-radius: 3px;
+    list-style-type: none;
+}
+
+.logo img{
+    width: 5opx;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.profile img{
+    width:10%;
+    height:10%;
+    border-radius: 50%;
 }
 .education h2{
 color: blue;
@@ -30,7 +78,7 @@ color: blue;
 }
 
 #skills{
-    background-color: rgba(95, 160, 127, 0.769);
+    background-color: rgba(64, 105, 84, 0.469);
     display: block;
     padding: 20px;
 }
@@ -43,5 +91,10 @@ color: blue;
 
 #contacts{
     display: block;
+    text-align: center;
+}
+
+.Footer{
+    background-color: aquamarine;
     text-align: center;
 }
